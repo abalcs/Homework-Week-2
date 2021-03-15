@@ -43,6 +43,10 @@ li {
   text-decoration: none;
 }
 
+nav li a:hover {
+  color: rgb(49, 172, 44);
+}
+
 h1 {
   font-size: 90px;
   margin: 0;
@@ -101,8 +105,8 @@ p {
 }
 
 .logo {
-  height: 60px;
-  margin: 30px;
+  height: 70px;
+  margin: 20px;
 }
 .social {
   margin: 20px;
