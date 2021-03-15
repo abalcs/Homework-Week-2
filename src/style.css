@@ -43,8 +43,20 @@ li {
   text-decoration: none;
 }
 
+nav li a::before {
+  content: '';
+  display: block;
+  transition: ease-in-out 250ms;
+}
+
 nav li a:hover {
+  border-bottom: 3px solid rgb(49, 172, 44);
+  transition: ease-in 100ms;
   color: rgb(49, 172, 44);
+}
+
+nav li a:hover::before {
+  width: 100%;
 }
 
 h1 {
@@ -145,6 +157,10 @@ p {
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+
+.top a{
+  color: rgb(49, 172, 44);
 }
 
 @media only screen and (max-width: 1000px) {
