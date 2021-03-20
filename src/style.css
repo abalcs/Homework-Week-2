@@ -172,6 +172,9 @@ p {
       display: flex;
       flex-wrap: wrap;
   }
+  .project-card, .project-card1 {
+    width: 100%;
+  }
 }
 
 .project-image {
