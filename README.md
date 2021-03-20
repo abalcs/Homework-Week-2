@@ -4,7 +4,7 @@ Site setup using HTML, CSS, and JS.  Projects shown are the most recent examples
 
 ##Screenshot
 
-![Alan Balcom](src/images/readmephoto.png)(height="50%" width="50%")
+![Alan Balcom](src/images/readmephoto.png)
 
 ###Contact Info
 
