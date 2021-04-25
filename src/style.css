@@ -20,9 +20,9 @@ section {
 }
 
 footer {
+  text-align: center;
   background-color: black;
   color: white;
-  text-align: center;
   padding: 80px;
 }
 
@@ -143,7 +143,7 @@ p {
 }
 
 .project-card1 {
-  width: 500px;
+  width: 300px;
   height: 500px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
