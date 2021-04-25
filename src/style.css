@@ -206,12 +206,9 @@ a {
   outline: 0;
 }
 
-@media screen and (max-width: 1200px) {
-  .information p {
-    padding-right: 2em;
-  }
+.information p {
+  padding-right: 2em;
 }
-
 
 @media only screen and (max-width: 1000px) {
   .hamburger {
