@@ -34,13 +34,14 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
-  width: 500px;
+  width: 700px;
   justify-content: space-around;
   font-size: 25px;
 }
 
 li {
   text-decoration: none;
+  margin-left: 10px;
 }
 
 nav li a:hover {
