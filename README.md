@@ -4,6 +4,10 @@ Site setup using HTML, CSS, and JS.  Projects shown are the most recent examples
 
 ![Alan Balcom](src/images/readmephoto.png)
 
+## Link to Live Site
+
+https://abalcs.github.io/Portfolio/
+
 ## Contact Info
 
 Alan Balcom
