@@ -1,6 +1,6 @@
 # Alan's Portfolio
 
-Site setup using HTML, CSS, and JS.  Projects shown are the most recent examples of my work.
+Site setup using HTML, CSS, and JS.  Projects shown are recent examples of my work.
 
 ![Alan Balcom](src/images/readmephoto.png)
 
