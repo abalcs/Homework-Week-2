@@ -240,6 +240,7 @@ a {
 
   ul.show {
       display: block;
+      width: 22rem;
   }
 
   nav {
