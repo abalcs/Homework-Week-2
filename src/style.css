@@ -169,6 +169,16 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
+  .sub-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  svg {
+   display: none;
+  }
+
   .project-container {
       display: flex;
       flex-wrap: wrap;
@@ -242,4 +252,20 @@ a {
       display: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .information p {
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .project-card img {
+    width: 75%;
+  }
+}
+
+  
 
