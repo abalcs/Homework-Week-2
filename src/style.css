@@ -131,6 +131,7 @@ p {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  margin-top: -50px;
 }
 
 .headshot {
@@ -148,6 +149,7 @@ p {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  margin-top: -50px;
 }
 
 .skill-list {
@@ -157,6 +159,7 @@ p {
 
 .skill-icon {
   padding: 15px;
+  width: 100px;
 }
 
 .list {
