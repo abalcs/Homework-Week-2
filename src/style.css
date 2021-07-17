@@ -143,6 +143,30 @@ p {
   align-items: center;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-icon {
+  padding: 15px;
+}
+
+.list {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
 .project-card1 {
   width: 300px;
   height: 575px;
