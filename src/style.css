@@ -41,7 +41,7 @@ ul {
 
 li {
   text-decoration: none;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 nav li a:hover {
@@ -148,7 +148,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding: 40px;
   margin-top: -50px;
 }
 
@@ -158,7 +158,7 @@ p {
 }
 
 .skill-icon {
-  padding: 15px;
+  padding: 25px;
   width: 100px;
 }
 
@@ -167,16 +167,21 @@ p {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 75%;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
-.project-card1 {
+.sql {
+  width: 100px;
+}
+
+/* .project-card1 {
   width: 300px;
   height: 575px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
   border-radius: 10px;
-}
+} */
 
 .project-card {
   width: 300px;
@@ -200,10 +205,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-  }
-
-  svg {
-   display: none;
   }
 
   .project-container {
@@ -252,7 +253,7 @@ a {
   .hamburger {
       display: block;
       border: 0;
-      background-color: transparent;
+      /* background-color: transparent; */
       color: white;
       font-size: 30px;
       margin: 20px;
@@ -261,8 +262,8 @@ a {
 
   ul {
       display: none;
-      background-color: #2b2c38;
-      margin: 0ppx;
+      /* background-color: #2b2c38; */
+      margin: 0px;
   }
 
   ul.show {
@@ -293,7 +294,28 @@ a {
   .project-card img {
     width: 75%;
   }
+
+  .email {
+    font-size: 1.5rem;
+  }
 }
 
+@media only screen and (max-width: 450px) {
+  svg {
+    display: none;
+  }
+
+  .email {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .headshot {
+    width: 200px;
+  }
+}
   
 
